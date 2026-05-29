@@ -36,6 +36,8 @@ $ cd ns-allinone-3.44
 
 $ ./build.py --enable-examples --enable-tests
 
+$ cd ns-3.44 
+
 After the installation, the two files implemented ee-iot-wifi.cc and ee-iot-wpan.cc were copied to ~ns-3.44/scratch folder and run using the following command 
 
 $ ./ns3 run scratch/ee-iot-wifi.cc
