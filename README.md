@@ -6,6 +6,16 @@ There are three modules,
 * The higher the value, the better the state transition, which is programmed in C language for various state transitions
 * For this we have used a tuple like <H/L, P, R, T>  
 
+This code is modelled with Reinforcement learning that is solving the problem of Semi Markov Decision problems (SMDP) based on two-state transitions.
+
+This code is given in a separate folder rl/ . The program can be compiled using the following command 
+
+$ gcc -o main main.c -lm 
+
+$ ./main
+
+This will give the output of theta, exploration rate and average reward. The average reward value is taken for various state transistion based on the above tuple. 
+
 2. Simulation with NS3
    OS USed: Ubuntu 24.04
    ns3 version: ns-3.44
