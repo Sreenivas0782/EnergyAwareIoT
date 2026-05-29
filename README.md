@@ -14,7 +14,8 @@ $ gcc -o main main.c -lm
 
 $ ./main
 
-This will give the output of theta, exploration rate and average reward. The average reward value is taken for various state transistion based on the above tuple. 
+This will give the outputs of theta, the exploration rate, and the average reward. The average reward value is taken for various state transistion based on the above tuple. 
+
 
 2. Simulation with NS3
    OS USed: Ubuntu 24.04
